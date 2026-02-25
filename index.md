@@ -88,7 +88,7 @@ Imagine you're writing a thesis in Word. You save it. You edit a chapter. You sa
 
 It's not just a backup tool. It's a **logbook** for your project. Each commit tells a story: "I added the /predict endpoint", "I fixed the validation bug", "I optimized the SQL query".
 
-![Illustration of how Git works — each commit is a snapshot in time](https://www.nobledesktop.com/image/blog/git-branches-702x336.png)
+![Illustration of how Git works — each commit is a snapshot in time](https://blog.git-init.com/content/images/size/w1600/2021/08/commit-snapshots.001.jpeg)
 
 > **Going further with Git:**
 > - [The official Git book](https://git-scm.com/book/en/v2) — the reference
