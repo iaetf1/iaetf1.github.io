@@ -99,6 +99,8 @@ It's not just a backup tool. It's a **logbook** for your project. Each commit te
 
 **Git** is the tool running on your machine. **GitHub** is the online platform that hosts your code and enables collaboration. Think of Git as your local text editor, and GitHub as Google Docs — the shared version accessible from anywhere.
 
+![](https://data-flair.training/blogs/wp-content/uploads/sites/2/2023/09/difference-git-vs-github.webp)
+
 We'll need GitHub for two reasons:
 1. Host our code (and make it accessible)
 2. Use **GitHub Actions** to automate testing and deployment (we'll get to that later)
@@ -242,6 +244,8 @@ The `feat:` prefix isn't just cosmetic. It's a convention called [Conventional C
 
 Before coding each new feature, I create a **dedicated branch**. It's like creating a parallel copy of the project to experiment with. If it works, I merge. If it's a disaster, I delete the branch, and `main` hasn't moved.
 
+![](https://user-images.githubusercontent.com/1256329/117236177-33599100-adf6-11eb-967c-5ef7898b55dc.png)
+
 ```bash
 # Create a branch for the first feature
 git checkout -b feature/api-fastapi
@@ -336,6 +340,8 @@ The term API (Application Programming Interface) sounds intimidating, but the co
 
 **The restaurant analogy.** You're at a restaurant. You don't walk into the kitchen to cook your own meal. You place an order with the waiter, who passes it to the kitchen and brings back the result.
 
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230216170349/What-is-an-API.png)
+
 - **You** = the client (a browser, a Python script, a mobile app)
 - **The waiter** = the API (receives requests and returns results)
 - **The kitchen** = the ML model (where the actual work happens)
@@ -348,6 +354,8 @@ The term API (Application Programming Interface) sounds intimidating, but the co
 #### HTTP methods — The basic vocabulary
 
 When you browse the Internet, your browser sends HTTP requests to servers. Each request has a **method** that indicates what it wants to do:
+
+![](https://pbs.twimg.com/media/F-eVhBbaIAAECzd.png)
 
 | Method | What it does | Restaurant analogy |
 |--------|-------------|-------------------|
