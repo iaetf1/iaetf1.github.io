@@ -1498,7 +1498,6 @@ pytest --cov=app -v
 ## Tech Stack
 FastAPI · Pydantic · PostgreSQL · SQLAlchemy · Pytest ·
 GitHub Actions · Docker · Hugging Face Spaces
-```
 
 > **Going further:**
 > - [Make a README](https://www.makeareadme.com/) — guide to writing a good README
