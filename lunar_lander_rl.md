@@ -2,6 +2,7 @@
 
 *A weekend side project that taught me more about AI than any textbook ever did.*
 
+![](https://raw.githubusercontent.com/fakemonk1/Reinforcement-Learning-Lunar_Lander/master/images/3.gif)
 ---
 
 Last month, a buddy of mine sent me a link to a SpaceX landing compilation on YouTube. You know the ones — a 20-story rocket falling from the sky, firing its engines at the last second, and gently touching down on a tiny platform in the middle of the ocean. "Bet you can't make an AI do that," he texted.
