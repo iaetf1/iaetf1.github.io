@@ -45,6 +45,7 @@ Before writing a single line of code, let's build some real intuition. I'm going
 
 ### Where RL Fits in the AI Landscape
 
+![](https://fr.mathworks.com/discovery/reinforcement-learning/_jcr_content/thumbnail.adapt.1200.medium.png/1601891958466.png)
 You've probably heard of **supervised learning**: you give the algorithm a bunch of labeled examples ("this image is a cat", "this email is spam") and it learns to predict labels for new data. And maybe you've heard of **unsupervised learning**: you give it unlabeled data and it finds patterns on its own (like clustering customers into groups).
 
 Reinforcement Learning is the **third pillar** of machine learning, and it's fundamentally different from both. Here's why:
@@ -65,11 +66,14 @@ That's Reinforcement Learning in a nutshell: **learning optimal behavior through
 
 There are five concepts you absolutely need to internalize. I'll explain each one in depth, because these are the building blocks for *everything* that follows.
 
+![](https://www.artiba.org/Content/Images/components-of-reinforcement-learning.jpg)
 ---
 
 **1. Agent — The Decision-Maker**
 
 The agent is the entity that learns and makes decisions. It's the "brain" of your system.
+
+![](https://miro.medium.com/v2/resize:fit:800/0*PRDfQwGlwD4JvrmA.gif)
 
 In our project, the agent will be a lunar lander trying to land safely on the moon. But agents can be anything: a chess-playing program, a self-driving car's navigation system, a robot arm learning to pick up objects, or an algorithm deciding what ad to show you.
 
@@ -82,6 +86,8 @@ A **policy** is just a fancy word for "decision-making strategy." It can be as s
 **2. Environment — The World**
 
 The environment is everything the agent interacts with. It's the "world" that the agent lives in.
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*jBbLJZYVlJlVAjs-c7z0Zw.gif)
 
 In a video game, the environment is the game itself — the physics, the rules, the other characters. In robotics, the environment is the physical world. In our case, the environment is a physics simulation of the moon's surface, complete with gravity, friction, and fuel consumption.
 
@@ -193,6 +199,7 @@ During training, the agent plays thousands of episodes. Each episode is like one
 
 ### Cumulative Reward — Why the Long Game Matters
 
+![](https://towardsdatascience.com/wp-content/uploads/2020/06/17TDcDII6iH9tKpMBH3enwA.png)
 Here's a subtlety that trips up a lot of beginners: the agent doesn't just try to maximize the **immediate** reward. It tries to maximize the **cumulative reward** over the entire episode.
 
 Why does this matter? Consider this scenario: the lander is hovering high above the pad. Firing the main engine costs fuel (-0.3 reward per frame). Doing nothing costs nothing (0 reward). If the agent only cared about the immediate reward, it would never fire its engines — because every engine use has a negative immediate reward!
@@ -231,6 +238,8 @@ Imagine you've just moved to a new city and you're looking for a good restaurant
 
 - **Exploit**: Go back to that decent restaurant every night. You know it's okay. Safe bet.
 - **Explore**: Try a new restaurant tonight. Maybe it's terrible. Maybe it's the best food you've ever had. You won't know until you try.
+
+![](https://huggingface.co/blog/assets/63_deep_rl_intro/expexpltradeoff.jpg)
 
 If you *only* exploit, you'll never find anything better. If you *only* explore, you'll waste time eating at terrible places even though you already know a good one.
 
